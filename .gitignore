@@ -2,3 +2,6 @@
 .gem
 Gemfile.lock
 /.gitconfig
+/.gradle
+/gradlew.bat
+/gradlew
