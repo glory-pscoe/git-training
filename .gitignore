@@ -5,3 +5,4 @@ Gemfile.lock
 /.gradle
 /gradlew.bat
 /gradlew
+/gradle
