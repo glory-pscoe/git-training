@@ -1,0 +1,12 @@
+[.lightbg,background-video="videos/relaxing.mp4",background-video-loop="true",background-opacity="0.7"]
+
+== GIT kickstart
+
+=== Distribution 
+
+=== Installation
+
+
+
+
+

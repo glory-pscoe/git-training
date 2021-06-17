@@ -1,4 +1,10 @@
-[.lightbg,background-video="videos/relaxing.mp4",background-video-loop="true",background-opacity="0.7"]
+
+== GIT presentation & tutorial
+
+    1. GIT basic concepts and development toolings
+    
+    2. Potential use case for GIT within Glory (beyond development)
+
 
 == Agenda
 
@@ -15,7 +21,6 @@
 4. Glory potential use cases
 
 5. Tooling
-
 
 
 
