@@ -1,7 +1,13 @@
 = GIT presentation & tutorial
 :author: Pascal Munerot <pascal.munerot@glory-global.com>
 :date: 2021-06-14
+// :doctype: book
+:imagesdir: images
+:source-highlighter: rouge
+:author: Pascal Munerot <pascal.munerot@glory-global.com>
+
 :icons: font
+
 // we want local served fonts. Therefore patched sky.css
 //:revealjs_theme: sky
 :revealjs_customtheme: css/sky.css
@@ -38,35 +44,17 @@
 
 --
 
-//include::presentation-intro.adoc[]
 
 include::presentation-agenda.adoc[]
 
-include::presentation-getting-started.adoc[]
-
+//include::presentation-getting-started.adoc[]
 
 include::presentation-appendix.adoc[]
 
-== Tutorials
-
-* https://git-scm.com/docs/gittutorial[]
-=======
-= GIT presentation & tutorial
-:author: Pascal Munerot <pascal.munerot@glory-global.com>
-:date: 2021-06-14
-:doctype: book
-:imagesdir: images
-:source-highlighter: rouge
-
-
---
-* A presentation on GIT basic usage.
-
-* Identify potential use cases for GIT with and beyond development.
---
-
-include::presentation-agenda.adoc[]
 include::git-main-concepts.adoc[]
+
 include::git-basic-commands.adoc[]
+
 include::glory-specific.adoc[]
+
 include::presentation-appendix.adoc[]
