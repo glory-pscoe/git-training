@@ -7,6 +7,7 @@
 
 :icons: font
 
+include::_settings_vars.adoc[]
 
 
 [.notes]

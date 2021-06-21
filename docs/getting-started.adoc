@@ -1,14 +1,33 @@
-[.lightbg,background-video="videos/relaxing.mp4",background-video-loop="true",background-opacity="0.7"]
-
 == GIT kickstart
 
 === Distribution 
 
-The distribution for GIT can be found on the GIT SCM page 
+The distribution for GIT can be found on the 
+https://git-scm.com/download[https://www.git-scm.com] home page. + 
+
+This page also lists client tools. See the list in <<resources>>. +
+
+
+
 
 === Installation
 
+- On Windows, simply run the .MSI installer and pick the default settings.
+
+- On Linux, most of the time there is a package, it is installed already or there is a package available in the distribution package system (apt, pacman ...).
 
 
 
 
+=== Folders organisation
+
+
+.A working copy typical folders layout
+
+[tree,file=""]
+--
+|-- .git (1)
+|--- sample.java
+--
+<1> The folder where GIT stores its files
+--
