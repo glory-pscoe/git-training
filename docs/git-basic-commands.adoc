@@ -1,5 +1,6 @@
 == GIT basic commands
 
+
 .git init : create an empty repository
 [source, bash]
 ----
@@ -7,14 +8,21 @@ git init
 ----
 
 .git add : add changes to the index
-
-NOTE:: Technically, adding is not about adding files but about adding modifications (new file, modifications to existing files, deletion, renaming, moves to other folders). This is called *staging*.
-
 [source, bash]
 ----
 git add sample.java
 git add -A *.css
 ----
+
+NOTE:: Adding is not about adding files but about adding modifications (new file, modifications to existing files, deletion, renaming, moves to other folders). This is called *staging*.
+        + 
+        + 
+     Technically, all these modifications are copied *as is* in the GIT storage folder and then indexed footnote:[SHA1 hashing]
+        +
+        
+TIP: GIT uses the SHA1 hash to keep track of how files are renamed / moved in the working copy using their hash value as key. Here is an example of such a hash: ``10B4FC1CF758D2EEB5BFE8A5617D957EF5973033``. footnote:[https://en.wikipedia.org/wiki/SHA-1]
+
+
 
 .git commit: save staged revisions
 [source, bash]
@@ -50,10 +58,13 @@ git push
 .git pull : retrieves changes (synchronizes) from the origin repository and synchronizes it to the master repository.
 [source, bash]
 ----
-git push
+git pull
 ----
 
-IMPORTANT:: With these last two commands, conflicts may arise if GIT detect changes to the same content in files.
+IMPORTANT:: With these last two commands, conflicts may arise if GIT detects changes to the same content in files.
+     +
+     +
+This is a normal process in development, not always an error but needs special care.
 
 
 

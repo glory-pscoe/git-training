@@ -1,5 +1,5 @@
 
-== GIT presentation & tutorial
+== GIT presentation and tutorial
 
     1. GIT basic concepts and development toolings
     

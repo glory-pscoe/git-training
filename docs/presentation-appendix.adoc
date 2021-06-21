@@ -1,6 +1,6 @@
 == Appendices
 
-[[Resources]]
+[[anc-resources]]
 === Resources
 
 .Main documentation
@@ -24,7 +24,7 @@ https://git-scm.com/docs[GIT SCM]
 
 |Github Desktop
 |https://desktop.github.com/[]
-|Github specific repository & project manager
+|Github specific repository and project manager
 |
 
 |Atlassian SourceTree
@@ -37,9 +37,14 @@ https://git-scm.com/docs[GIT SCM]
 |===
 
 
-.Quick references & cheatsheets
+.Quick references and cheatsheets
 
 https://marklodato.github.io/visual-git-guide/index-en.html[A visual git reference] - http://marklodato.github.io/visual-git-guide/index-pt.html[Uma Referência Visual do Git]
+
+.GIT command line overview
+include::git-commands-help.adoc[]
+
+
 
 .Books
 
@@ -61,6 +66,9 @@ https://marklodato.github.io/visual-git-guide/index-en.html[A visual git referen
 * https://git-scm.com/docs/gittutorial[gittutorial]
 
 * https://gitimmersion.com[gitimmersion]
+
+
+
 
 .Contact
 

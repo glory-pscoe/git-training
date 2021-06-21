@@ -1,33 +1,80 @@
-== GIT kickstart
+== GIT : getting started
 
 === Distribution 
 
 The distribution for GIT can be found on the 
-https://git-scm.com/download[https://www.git-scm.com] home page. + 
+https://git-scm.com/download[GIT SCM] home page. + 
 
-This page also lists client tools. See the list in <<resources>>. +
+This page also lists client tools. See the list in <<anc-resources>>.
 
+
+GIT contains two types of clients by default:
+
+* The `git` command line client. This commands has a number of subcommands.
+
+* The `gitui` program acting as a simple graphical interface (based on Tk UI toolkit). footnote:[git-ui.exe on windows]
+
+A good client tool footnote:[A client for GIT is the tool accessing the git repository either locally or on a remote server] for git is https://tortoisegit.org[TortoiseGIT]. As with GIT, the best is to install it with the default settings. footnote:[the line ending characters should be set to Windows for editing locally and Unix for the commits - as defaults]
 
 
 
 === Installation
+
+==== GIT installation
 
 - On Windows, simply run the .MSI installer and pick the default settings.
 
 - On Linux, most of the time there is a package, it is installed already or there is a package available in the distribution package system (apt, pacman ...).
 
 
+==== Client installation : TortoiseGIT
 
 
-=== Folders organisation
 
+=== GIT folders overview
+
+==== Working copy folders
 
 .A working copy typical folders layout
+[tree]
+----
+# prj
+## .git (1)
+## src  (2)
+## docs (3)
+## logs (4)
+----
+<1> git special folder 
+<2> source code
+<3> documentation files
+<4> log files
 
-[tree,file=""]
---
-|-- .git (1)
-|--- sample.java
---
-<1> The folder where GIT stores its files
---
+*This is only an example* so the actual folder locations could be different based on the project requirements.
+
+
+==== Repository folders
+
+
+.Details on the .git folder
+[tree]
+----
+# .git
+## hooks (1)
+## info (2)
+## logs (3)
+## objects (4)
+## refs (5)
+## config (6)
+----
+<1> for trigger scripts (ksh or windows shell?)
+<2> TODO
+<3> log files
+<4> actual objects storage
+<5> references link ?
+<6> main configuration file
+
+   
+   
+<<<
+
+

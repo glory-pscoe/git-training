@@ -1,35 +1,41 @@
-= GIT presentation & tutorial
-:author: Pascal Munerot <pascal.munerot@glory-global.com>
-:date: 2021-06-14
+= GIT presentation and tutorial
+:author: Pascal Munerot
+:email: pascal.munerot@glory-global.com
+:doctype: book
+:date: 2021-06-22
 :imagesdir: images
 :source-highlighter: rouge
-:author: Pascal Munerot <pascal.munerot@glory-global.com>
-
 :icons: font
+
+
+:toc: 
+
 
 include::_settings_vars.adoc[]
 
 
-[.notes]
+[notes]
 --
-* A presentation on GIT basic usage.
+* A presentation on GIT concepts and basic usage.
 
-* Identify potential use case for GIT beyond development
-
-
+* Identify potential usecases for GIT within Glory
 --
 
-
+[[anc-pres-agenda]]
 include::presentation-agenda.adoc[]
 
-//include::presentation-getting-started.adoc[]
+[[anc-get-started]]
+include::getting-started.adoc[]
 
-include::presentation-appendix.adoc[]
-
+[[anc-main-concepts]]
 include::git-main-concepts.adoc[]
 
+[[anc-basic-commands]]
 include::git-basic-commands.adoc[]
 
+[[anc-glory-specific]]
 include::glory-specific.adoc[]
 
+[[anc-appendices]]
 include::presentation-appendix.adoc[]
+

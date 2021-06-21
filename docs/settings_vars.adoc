@@ -1,2 +1,2 @@
-:git-home: https://www.git-scm.org
+:git_home: https://www.git-scm.org
 
