@@ -41,6 +41,11 @@ https://git-scm.com/docs[GIT SCM]
 
 https://marklodato.github.io/visual-git-guide/index-en.html[A visual git reference] - http://marklodato.github.io/visual-git-guide/index-pt.html[Uma Referência Visual do Git]
 
+.GIT command line overview
+include::git-commands-help.adoc[]
+
+
+
 .Books
 
 * https://git-scm.com/book/en/v2[Progit] : Open source book with lots of explanations and examples.
@@ -61,6 +66,9 @@ https://marklodato.github.io/visual-git-guide/index-en.html[A visual git referen
 * https://git-scm.com/docs/gittutorial[gittutorial]
 
 * https://gitimmersion.com[gitimmersion]
+
+
+
 
 .Contact
 

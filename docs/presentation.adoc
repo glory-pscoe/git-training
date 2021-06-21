@@ -14,17 +14,13 @@ include::_settings_vars.adoc[]
 --
 * A presentation on GIT basic usage.
 
-* Identify potential use case for GIT beyond development
-
-
+* Identify potential usecases for GIT beyond development
 --
 
 
 include::presentation-agenda.adoc[]
 
-//include::presentation-getting-started.adoc[]
-
-include::presentation-appendix.adoc[]
+include::getting-started.adoc[]
 
 include::git-main-concepts.adoc[]
 
@@ -33,3 +29,4 @@ include::git-basic-commands.adoc[]
 include::glory-specific.adoc[]
 
 include::presentation-appendix.adoc[]
+

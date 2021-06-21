@@ -1,5 +1,6 @@
 == GIT basic commands
 
+
 .git init : create an empty repository
 [source, bash]
 ----
@@ -7,14 +8,13 @@ git init
 ----
 
 .git add : add changes to the index
-
-NOTE:: Technically, adding is not about adding files but about adding modifications (new file, modifications to existing files, deletion, renaming, moves to other folders). This is called *staging*.
-
 [source, bash]
 ----
 git add sample.java
 git add -A *.css
 ----
+NOTE:: Technically, adding is not about adding files but about adding modifications (new file, modifications to existing files, deletion, renaming, moves to other folders). This is called *staging*.
+
 
 .git commit: save staged revisions
 [source, bash]
@@ -50,10 +50,13 @@ git push
 .git pull : retrieves changes (synchronizes) from the origin repository and synchronizes it to the master repository.
 [source, bash]
 ----
-git push
+git pull
 ----
 
-IMPORTANT:: With these last two commands, conflicts may arise if GIT detect changes to the same content in files.
+IMPORTANT:: With these last two commands, conflicts may arise if GIT detects changes to the same content in files.
+     +
+     +
+This is a normal process in development, not always an error but needs special care.
 
 
 

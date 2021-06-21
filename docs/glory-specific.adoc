@@ -17,5 +17,11 @@ https://github.com/glory-pscoe[PSCOE github organisation]
 |Help enforce consistency accross
 |Production / Deployment
 
+
+|Knowledge base source files / WIKI
+|Hold documents in both text and binary form.
+|Documentation
+
+
 |===
 
