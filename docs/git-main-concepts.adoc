@@ -11,13 +11,6 @@ Usually, the current repository is called the `master` while the remote one is c
 
 * TODO: Give basic explanation of reflog / references syntax.
 
-== Diagram sample
-
-[plantuml]
---
-a -> b
---
-
 == Notes
 
 

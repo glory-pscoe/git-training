@@ -12,7 +12,7 @@ Following attributes are defaults for reveal.js. You are free to change or remov
 :revealjs_history: true
 :revealjs_keyboard: true
 :revealjs_overview: true
-:revealjs_center: true
+:revealjs_center: false
 :revealjs_touch: true
 :revealjs_loop: false
 :revealjs_rtl: false
@@ -30,7 +30,7 @@ Following attributes are defaults for reveal.js. You are free to change or remov
 :revealjs_viewdistance: 3
 :revealjs_parallaxbackgroundimage:
 :revealjs_parallaxbackgroundsize: 
-:revealjs_customtheme: reveal.js/css/theme/serif.css
+:revealjs_customtheme: ./reveal.js/css/theme/serif.css
 :revealjs_theme: serif
 
 :iconfont-remote!:

@@ -4,6 +4,8 @@
 
 === Distribution 
 
+The distribution for GIT can be found on the GIT SCM page 
+
 === Installation
 
 
