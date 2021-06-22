@@ -1,0 +1,30 @@
+== Github introduction
+
+=== Owner
+
+Bought by Microsoft a few years ago. It is the most successful Git provider ... but not only.
+
+Competion include: gitlab, bitbucket, gitea ... plenty others. Offers are plan-based pricing and hosted in the cloud by default.
+
+Some of them provide the possibility to host their software inhouse. 
+
+=== Added features
+
+* Issue tracking : Github has issue tracking
+
+* Pull requests : A pull request is a way to ask a repository owner/member to review a change that another member of external person (with public repositories) to review the changes and accept it into the `origin` repository.
+
+* Project management 
+
+* WIKI features
+
+* Automated build & releases
+
+* Automatic security review (dependabot)
+
+A typical use case consists of using Github (or any other similar provider) as a remote repository (with respect to the local or `master` repository).
+
+
+* Project web site content (https://github.io) 
+
+* Enterprise level features 

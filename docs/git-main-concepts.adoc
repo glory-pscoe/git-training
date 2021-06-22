@@ -1,44 +1,90 @@
-== GIT glossary and concepts summary
+[[anc-glossary]]
 
-* *revisions* : a revision behaves like a database transaction and contains one or more file modifications.
+== GIT overview
 
-* *repository* : a repository holds the revisions added through the git commands along with an object store (index), configuration files and logs. +
+=== GIT main features
+
+* Can manage either local or remote repositories
+
+* Remote repositories accessible through several protocols (http(s), git, ssh, file share).
+
+* Decentralized repositories allow a lot of flexibility. 
     +
-  Each repository can be bound to one (or more) remote repositories. This allows for decentralized repositories.
+  The developer works on his/her own repository and working copies, branches, tags ... without disturbing others.
     +
-    +
+  Can later merge into a remote repository (push to the remote repository).
+ 
+=== GIT from first principles
+
+* GIT does not store differences between files but their actual content in either text or binary. footnote:[as opposed to tools such as cvs, subversion]
+
+* GIT indexes files with SHA1 (hash algorithm). This is very useful to detect how files are moved accross the working copy and thus keep the history intact.
+
+* GIT gives a lot of power and flexibility to its users
+
+=== Benefits and pitfalls over other SCM tools
+
+* Basic usage is easy ... but can get complex (conflicts resolution, merging)
+
+* takes time to master
+
+
+
+=== Usage review
+
+* Manage source code and documentation assets in sync.
+
+* Benefits and pitfalls over other SCM tools
+
+=== GIT alternatives
+
+* https://subversion.apache.org[Subversion]: easier than GIT but less features (no decentralized repository)
+
+* https://www.mercurial-scm.org[Hg]: Another popular SCM tool.
+
+* CVS / RCS: Very old, not to use anymore.
+
+
+=== GIT tools
+
+
+
+Repository:: a repository holds the revisions added through the git commands along with an object store (index), configuration files and logs. +
+ +
+Each repository can be bound to one (or more) remote repositories. This allows for decentralized repositories.
+ +
+ +
 Usually, the current repository is called the `master` while the remote one is called `origin`. footnote:[not mandatory]
+ +
+ +
+It also has a small expression language to refer to those revisions.
 
-* GIT revisions are linked between one another by references footnote:[linked list of ref objects].
-    +
-    +
-    It also has a small expression language to refer to those revisions. 
-    +
-    *TODO::Explain references and reflog.*
-    
+TIP: GIT revisions are linked between one another by references footnote:[linked list of ref objects].
+
+
+
+Working copy:: a folder on a user/developer machine containing the current state of work (modifications)
+
+Branch:: A linked list of revisions in the revision tree:
+ +
+- A branch can be the root one
+
+- Or derive from a particular transaction (i.e. commit) at any point in the developments' lifecycle.
+
+Main branch:: The root branch in a repository.
+
+Tag:: a tag gives a significant name to a particular revision (commit) => for extracting particular versions (production) and find it more easily.
+
+
+Reflog:: TODO:Explain references and reflog.
+
+
+References:: TODO:Explain references and reflog.
 [source,git]
 --
 head^1
-
+de12acfg
 --
-    
 
-== Notes
-
-
-- GIT does not store differences between files but their actual content in either text or binary.
-
-
-- GIT indexes files with SHA1 (hash algorithm). This is very useful to detect how files are moved accross the working copy and thus keep the history intact.
-
-* *working copy*: a folder on a user/developer machine containing the current state of work (modifications)
-
-* *branch*: A linked list of revisions in the revision tree:
-
-    - A branch can be the root one
-
-    - or derive from a particular transaction (i.e. commit) at any point in the developments' lifecycle.
-
-
-* *tag*: a tag gives a significant name to a particular revision (commit) => for extracting particular versions (production) and find it more easily.
+Revisions:: a revision is similar to a a database transaction and contains one or more file modifications.
 

@@ -1,27 +1,12 @@
 
-== GIT presentation and tutorial
+== Presentation outline
 
-    1. GIT basic concepts and development toolings
-    
-    2. Potential use case for GIT within Glory (beyond development)
+    * DevOps & SCM introduction
 
+    * GIT core concepts
 
-== Agenda
+    * GIT main commands and quick demo, tools overview
 
-1. What is source code control?
+    * Potential usecases for GIT within Glory
 
-2. What is git? Benefits and pitfalls over other SCM tools
-
-3. Usage review
-
-- Well known use cases
-
-- Benefits and pitfalls over other SCM tools
-
-4. Glory potential use cases
-
-5. Tooling
-
-
-
-
+    * Resources

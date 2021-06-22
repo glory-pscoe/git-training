@@ -1,0 +1,93 @@
+== GIT demo and practice
+
+In a first round, we will use the command line (say `cmd.exe` or  `bash`)
+
+=== Let's create a repository
+
+Create a local folder and name it: `gitdemo`, then change to that directory. 
+
+[source,bash]
+----
+mkdir gitdemo
+cd gitdemo
+git init
+----
+
+=== Adding a first file
+
+1. Edit a file with any text editor and name it : README.txt, put some content in it: *My project description*
+
+2. Add the file to the GIT object store and index (a.k.a. staging)
+
+[source,bash]
+----
+git add README.txt
+----
+
+=== Create more content
+
+[source,bash]
+----
+mkdir bin
+mkdir src
+----
+
+.Create a .gitignore file and add the content below
+[source,config]
+----
+/bin
+----
+
+
+Edit some files in the `src` folder:
+[source, java]
+----
+/******************************************************************************
+ *  Compilation:  javac HelloWorld.java
+ *  Execution:    java HelloWorld
+ *
+ *  Prints "Hello, World". By tradition, this is everyone's first program.
+ *
+ *  % java HelloWorld
+ *  Hello, World
+ *
+ *  These 17 lines of text are comments. They are not part of the program;
+ *  they serve to remind us about its properties. The first two lines tell
+ *  us what to type to compile and test the program. The next line describes
+ *  the purpose of the program. The next few lines give a sample execution
+ *  of the program and the resulting output. We will always include such 
+ *  lines in our programs and encourage you to do the same.
+ *
+ ******************************************************************************/
+
+public class HelloWorld {
+
+    public static void main(String[] args) {
+        // Prints "Hello, World" to the terminal window.
+        System.out.println("Hello, World");
+    }
+
+}
+----
+
+[source,bash]
+----
+git add -A # <1> 
+git status # <2>
+----
+<1> This will add all files in the current folders and subfolders
+
+<2> This will show what git considers as `staged` or `ignored` or `unstaged`.
+
+
+Please check that git has ignored the `bin` folder from the staging process.
+
+[source,bash]
+----
+TODO: Include git status logs
+----
+
+
+TIP: So far, the manipulations have been performed locally (folder based repository and working copy).
+
+

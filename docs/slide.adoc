@@ -9,7 +9,7 @@ include::_settings_vars.adoc[]
 
 include::presentation-agenda.adoc[]
 
-include::getting-started.adoc[]
+include::git-getting-started.adoc[]
 
 include::git-main-concepts.adoc[]
 

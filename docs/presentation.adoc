@@ -13,25 +13,23 @@
 
 include::_settings_vars.adoc[]
 
-
-[notes]
---
-* A presentation on GIT concepts and basic usage.
-
-* Identify potential usecases for GIT within Glory
---
-
 [[anc-pres-agenda]]
 include::presentation-agenda.adoc[]
 
 [[anc-get-started]]
-include::getting-started.adoc[]
+include::git-getting-started.adoc[]
 
 [[anc-main-concepts]]
 include::git-main-concepts.adoc[]
 
 [[anc-basic-commands]]
 include::git-basic-commands.adoc[]
+
+[[anc-git-demo]]
+include::git-demo.adoc[]
+
+[[anc-github]]
+include::github.adoc[]
 
 [[anc-glory-specific]]
 include::glory-specific.adoc[]
