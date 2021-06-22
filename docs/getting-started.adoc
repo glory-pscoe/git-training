@@ -3,7 +3,7 @@
 === Distribution 
 
 The distribution for GIT can be found on the 
-https://git-scm.com/download[GIT SCM] home page. + 
+https://git-scm.com/download[GIT SCM] home page. +
 
 This page also lists client tools. See the list in <<anc-resources>>.
 
@@ -29,6 +29,7 @@ A good client tool footnote:[A client for GIT is the tool accessing the git repo
 
 ==== Client installation : TortoiseGIT
 
+In order to install Tortoise GIT, please download it from the site and install also with the default settings.
 
 
 === GIT folders overview
@@ -51,11 +52,13 @@ A good client tool footnote:[A client for GIT is the tool accessing the git repo
 
 *This is only an example* so the actual folder locations could be different based on the project requirements.
 
-
-==== Repository folders
-
+==== Repository folder and subfolders
 
 .Details on the .git folder
+
+This is a special subfolder that GIT uses to store the objects, indices, configuration ...
+
+
 [tree]
 ----
 # .git
@@ -78,3 +81,4 @@ A good client tool footnote:[A client for GIT is the tool accessing the git repo
 <<<
 
 
+*This is only an example* so the actual folder locations could be different based on the project requirements.

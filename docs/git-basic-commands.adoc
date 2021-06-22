@@ -13,6 +13,8 @@ git init
 git add sample.java
 git add -A *.css
 ----
+NOTE:: Technically, adding is not about adding files but about adding modifications (new file, modifications to existing files, deletion, renaming, moves to other folders). This is called *staging*.
+
 
 NOTE:: Adding is not about adding files but about adding modifications (new file, modifications to existing files, deletion, renaming, moves to other folders). This is called *staging*.
         + 
