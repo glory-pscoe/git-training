@@ -34,7 +34,21 @@
 
 * Manage source code and documentation assets in sync.
 
-* Benefits and pitfalls over other SCM tools
+* Manage multimedia (binary) resources
+
+* Develop simultaneously several versions of the projects accross various axes (development lifecycle : production branch, experimental features, bugfix ...).
+
+* Help find out about how regression may have been introduced
+
+* Use the compare features and regular commits as a basis for developing incrementally i.e. when a change has been committed, it is possible to develop bleeding edge code (refactoring, new features) ... and roll back the changes if necessary.
+
+* It is possile to temporarily `stash` the changes (remove them from the working copy but keep them indexed along with a name to access them).
+
+* Fetch / pull changes from the origin repository
+
+* Merge changes from the same branch or other branches.  
+
+=== Benefits and pitfalls over other SCM tools
 
 === GIT alternatives
 
@@ -46,6 +60,9 @@
 
 
 === GIT tools
+
+
+=== GIT quick glossary
 
 
 

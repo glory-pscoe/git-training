@@ -33,7 +33,7 @@ mkdir src
 ----
 
 .Create a .gitignore file and add the content below
-[source,config]
+[source, ini]
 ----
 /bin
 ----
@@ -59,6 +59,8 @@ Edit some files in the `src` folder:
  *  lines in our programs and encourage you to do the same.
  *
  ******************************************************************************/
+
+// https://introcs.cs.princeton.edu/java/11hello/HelloWorld.java.html
 
 public class HelloWorld {
 
@@ -87,6 +89,29 @@ Please check that git has ignored the `bin` folder from the staging process.
 TODO: Include git status logs
 ----
 
+=== Commit staged changes to the repository
+
+.on the current branch (i.e. the root branch by default)
+[source, bash]
+----
+git commit # <1>
+# or alternatively
+git commit -m "initial commit" # <2>
+----
+<1> if no message is given, then a popup text editor or dialog will show up footnote:[depending on git tools installed and configurations]
+
+<2> `-m` option is for setting the commit message directly from the command line.
+
+.Review the history
+[source,bash]
+----
+git log
+----
+
+[source,bash]
+----
+TODO: Include git history logs
+----
 
 TIP: So far, the manipulations have been performed locally (folder based repository and working copy).
 
