@@ -65,15 +65,15 @@ gh repo clone glory-pscoe/git-training
 
 First copy the repository URL into the clipboard. Then, use the contextual menu and select `Git Clone..`:
 
-image::tortoise_clone_1.png[]
+image::images/ref/tortoise_clone_1.png[]
 
 Then the GIT clone dialog will show up:
 
-image::tortoise_clone_2.png[]
+image::images/ref/tortoise_clone_2.png[]
 
 Click OK:
 
-image::tortoise_clone_3.png[]
+image::images/ref/tortoise_clone_3.png[]
 
 == Create a new repository and import content
 
