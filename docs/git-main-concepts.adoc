@@ -1,3 +1,5 @@
+include::_settings_vars.adoc[]
+
 [[anc-glossary]]
 
 == GIT overview
@@ -40,7 +42,7 @@
 
 * Help find out about how regression may have been introduced
 
-* Use the compare features and regular commits as a basis for developing incrementally i.e. when a change has been committed, it is possible to develop bleeding edge code (refactoring, new features) ... and roll back the changes if necessary.
+* Use the compare features and regular commits as a basis for developing incrementally. footnote:[when a change has been committed, it is possible to develop bleeding edge code (refactoring, new features) ... and roll back the changes if necessary.]
 
 * It is possile to temporarily `stash` the changes (remove them from the working copy but keep them indexed along with a name to access them).
 

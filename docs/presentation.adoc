@@ -1,12 +1,32 @@
+include::_settings_vars.adoc[]
+
+image:images/ref/git-logo.png[Git,640,480,pdfwidth=50%,scaledwidth=50%]
+        +
+        +
+        +
+        +
+        +
+        + 
+        +
+        +
+        +
+        +
+        +
+        +
+        +
+        +
+        +
+
+<<<
+
+[]
+
 = GIT presentation and tutorial
 :author: Pascal Munerot
 :email: pascal.munerot@glory-global.com
 :doctype: book
 :date: 2021-06-22
-:imagesdir: images
-:source-highlighter: rouge
 :icons: font
-
 
 :toc: 
 
