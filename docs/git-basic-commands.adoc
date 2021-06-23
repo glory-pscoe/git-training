@@ -69,4 +69,3 @@ IMPORTANT:: With these last two commands, conflicts may arise if GIT detects cha
 This is a normal process in development, not always an error but needs special care.
 
 
-

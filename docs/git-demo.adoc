@@ -4,6 +4,10 @@ include::_settings_vars.adoc[]
 
 In a first round, we will use the command line (say `cmd.exe` or  `bash`). Please note that the commands output is shown as comments. 
 
+TIP: Commands whether they are issued from the command line or from a UI client have exactly the same effect. Those client tools are only passing parameters to the GIT commands or libraries. They effect the GIT repository in the same way and can be mixed interchangeably without problem. +
+     + 
+     A command done in a UI will be immediately seen in another as it is acting on the same repository.
+
 === Let's create a repository
 
 Create a local folder and name it: `gitdemo`, then change to that directory. 

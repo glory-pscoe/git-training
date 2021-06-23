@@ -1,12 +1,6 @@
 include::_settings_vars.adoc[]
 
-image:images/ref/git-logo.png[Git,640,480,pdfwidth=50%,scaledwidth=50%]
-        +
-        +
-        +
-        +
-        +
-        + 
+image:images/ref/git-logo.png[Git,320,240,pdfwidth=50%]
         +
         +
         +
@@ -15,11 +9,30 @@ image:images/ref/git-logo.png[Git,640,480,pdfwidth=50%,scaledwidth=50%]
         +
         +
         +
-        +
+
+[]
 
 <<<
 
+image:images/ref/glory.png[Glory,320,240,pdfwidth=50%,scaledwidth=50%,float="right",align="center"]
+        +
+        +
+        +
+        +
+        +
+        +
+        +
+        +
+        +
+        +
+        +
+        +
+        +
+        +
+
 []
+
+<<<
 
 = GIT presentation and tutorial
 :author: Pascal Munerot

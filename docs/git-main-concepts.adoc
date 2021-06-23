@@ -10,11 +10,7 @@ include::_settings_vars.adoc[]
 
 * Remote repositories accessible through several protocols (http(s), git, ssh, file share).
 
-* Decentralized repositories allow a lot of flexibility. 
-    +
-  The developer works on his/her own repository and working copies, branches, tags ... without disturbing others.
-    +
-  Can later merge into a remote repository (push to the remote repository).
+* Has fully decentralized repositories
  
 === GIT from first principles
 
@@ -24,12 +20,26 @@ include::_settings_vars.adoc[]
 
 * GIT gives a lot of power and flexibility to its users
 
+* GIT endorses a lifecycle for managing files and their revisions:
+
+.GIT lifecycle diagram footnote:[from git scm basics documentation at http://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository]
+
+image::images/ref/gitscm-lifecycle.png[]
+
+
 === Benefits and pitfalls over other SCM tools
 
-* Basic usage is easy ... but can get complex (conflicts resolution, merging)
+* Basic usage is easy ... but can get complex (conflicts resolution, merging) 
+
+* Decentralized repositories allow a lot of flexibility:  
+    +
+  The developer works on his/her own repository and working copies, branches, tags ... without disturbing others.
+    +
+  Can later merge into a remote repository (push to the remote repository).
+
+//icon::[thumbsup]
 
 * takes time to master
-
 
 
 === Usage review
@@ -61,12 +71,7 @@ include::_settings_vars.adoc[]
 * CVS / RCS: Very old, not to use anymore.
 
 
-=== GIT tools
-
-
 === GIT quick glossary
-
-
 
 Repository:: a repository holds the revisions added through the git commands along with an object store (index), configuration files and logs. +
  +
